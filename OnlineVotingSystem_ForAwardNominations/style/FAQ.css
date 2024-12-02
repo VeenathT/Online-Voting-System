@@ -1,0 +1,136 @@
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: white;
+  content: ">";
+}
+
+ul.breadcrumb li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+section{
+	background-color:#414141;
+	font-family: Tahoma;
+	letter-spacing: 1px;
+	background-attachment: fixed;
+	width: 100%;
+}
+
+h1{
+	color: white;
+}
+
+h2{
+	color: white;
+	font-weight: lighter;
+}
+
+.searchBar{
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 16px;
+	border: none;
+	background:#ddd;
+	cursor: pointer;
+}
+
+.searchSubmit{
+	padding: 0px 0px;
+	margin-left: -10px;
+	border: none;
+	background:#ddd;
+	cursor: pointer;
+	height:46px;
+	width:46px;
+	border-radius:50%;
+	
+}
+
+.button1 {
+  background-color: #414141;
+  border:none;
+  color: white;
+  padding: 13px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 33%;
+  height: 60px;
+  opacity: 90%;
+}
+
+.button2 {
+  background-color: #414141;
+  border:none;
+  color: white;
+  padding: 13px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 62%;
+  height: 60px;
+  opacity: 90%;
+}
+
+.button3 {
+  float: right;
+  margin-top: 3%;
+  margin-right: 15%;
+  background-color: #4CAF50;
+  border:none;
+  color: white;
+  padding: 13px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.button4 {
+  width: 10%;
+  height: 40px;
+  background-color: #414141;
+  color: white;
+  padding: 14px 14px;
+  margin-left: -10.5%;
+  margin-bottom: 7px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+p{
+	color: white;
+	font-family: Verdana;
+}
+
+.box{
+  width:40%;
+  padding: 15px;
+  margin: 5px 0 30px 10px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
